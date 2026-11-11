@@ -1,0 +1,24 @@
+# Gradle
+.gradle/
+build/
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+.cxx/
+captures/
+
+# Ruta del SDK: cada máquina tiene la suya, no va al repo
+local.properties
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Logs y firmas
+*.log
+*.keystore
+!debug.keystore
+
+# El wrapper de Gradle SÍ va al repo
+!gradle/wrapper/gradle-wrapper.jars

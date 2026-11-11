@@ -1,0 +1,2 @@
+-keepattributes *Annotation*
+-keepclassmembers class com.mobilestore.data.remote.** { *; }

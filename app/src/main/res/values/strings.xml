@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MobileStore</string>
+
+    <!-- Pantallas / navegacion -->
+    <string name="screen_catalog">Catálogo</string>
+    <string name="screen_detail">Detalle del producto</string>
+    <string name="screen_new_product">Nuevo producto</string>
+    <string name="screen_edit_product">Editar producto</string>
+    <string name="screen_cart">Carrito</string>
+    <string name="nav_back">Volver</string>
+
+    <!-- Catalogo -->
+    <string name="catalog_search_hint">Buscar por nombre o categoría</string>
+    <string name="catalog_add_product">Agregar producto</string>
+    <string name="catalog_refresh">Actualizar catálogo</string>
+    <string name="catalog_empty_title">Todavía no hay productos</string>
+    <string name="catalog_empty_message">Agregá tu primer producto con el botón + o actualizá el catálogo desde el servidor.</string>
+    <string name="catalog_empty_search_title">Sin resultados</string>
+    <string name="catalog_empty_search_message">No encontramos productos que coincidan con «%1$s».</string>
+    <string name="catalog_stock_label">Stock: %1$d</string>
+    <string name="catalog_low_stock">Quedan %1$d — reponer</string>
+    <string name="catalog_out_of_stock">Sin stock</string>
+
+    <!-- Detalle -->
+    <string name="detail_description">Descripción</string>
+    <string name="detail_add_to_cart">Agregar al carrito</string>
+    <string name="detail_edit">Editar</string>
+    <string name="detail_delete">Eliminar</string>
+    <string name="detail_share">Compartir</string>
+    <string name="detail_share_chooser">Compartir producto con…</string>
+    <string name="detail_share_text">Mirá este producto en MobileStore: %1$s — %2$s\n%3$s</string>
+    <string name="detail_not_found">No pudimos encontrar el producto solicitado.</string>
+
+    <!-- Confirmacion de eliminacion -->
+    <string name="delete_dialog_title">Eliminar producto</string>
+    <string name="delete_dialog_message">¿Seguro que querés eliminar «%1$s»? Esta acción no se puede deshacer.</string>
+    <string name="delete_dialog_confirm">Eliminar</string>
+    <string name="delete_dialog_cancel">Cancelar</string>
+
+    <!-- Formulario -->
+    <string name="form_title_label">Nombre del producto</string>
+    <string name="form_price_label">Precio</string>
+    <string name="form_price_prefix">$</string>
+    <string name="form_category_label">Categoría</string>
+    <string name="form_description_label">Descripción</string>
+    <string name="form_stock_label">Stock</string>
+    <string name="form_image_label">Imagen</string>
+    <string name="form_image_pick">Elegir de la galería</string>
+    <string name="form_image_clear">Quitar imagen</string>
+    <string name="form_image_none">Sin imagen seleccionada</string>
+    <string name="form_save">Guardar</string>
+    <string name="form_cancel">Cancelar</string>
+    <string name="form_char_counter">%1$d / %2$d</string>
+    <string name="form_category_select">Seleccioná una categoría</string>
+    <string name="form_discard_title">Descartar cambios</string>
+    <string name="form_discard_message">Tenés cambios sin guardar. ¿Querés descartarlos?</string>
+    <string name="form_discard_confirm">Descartar</string>
+    <string name="form_discard_cancel">Seguir editando</string>
+
+    <!-- Errores de validacion -->
+    <string name="error_empty_remote">El servidor no devolvió productos. Probá actualizar de nuevo o cargá uno a mano con el botón +.</string>
+    <string name="error_title_required">Ingresá el nombre del producto.</string>
+    <string name="error_title_too_short">El nombre debe tener al menos %1$d caracteres.</string>
+    <string name="error_title_too_long">El nombre no puede superar los %1$d caracteres.</string>
+    <string name="error_title_duplicated">Ya existe otro producto con ese nombre.</string>
+    <string name="error_price_required">Ingresá el precio.</string>
+    <string name="error_price_not_a_number">El precio debe ser un número (por ejemplo 1499.99).</string>
+    <string name="error_price_not_positive">El precio debe ser mayor a 0.</string>
+    <string name="error_price_too_many_decimals">El precio admite como máximo %1$d decimales.</string>
+    <string name="error_price_too_high">El precio no puede superar %1$s.</string>
+    <string name="error_category_required">Elegí una categoría.</string>
+    <string name="error_description_required">Ingresá una descripción.</string>
+    <string name="error_description_too_short">La descripción debe tener al menos %1$d caracteres.</string>
+    <string name="error_description_too_long">La descripción no puede superar los %1$d caracteres.</string>
+    <string name="error_stock_required">Ingresá el stock.</string>
+    <string name="error_stock_not_an_integer">El stock debe ser un número entero.</string>
+    <string name="error_stock_negative">El stock no puede ser negativo.</string>
+    <string name="error_stock_too_high">El stock no puede superar %1$d unidades.</string>
+    <string name="error_image_invalid_url">La dirección de la imagen no es válida.</string>
+    <string name="error_form_has_errors">Revisá los campos marcados antes de guardar.</string>
+
+    <!-- Estados generales -->
+    <string name="state_loading">Cargando…</string>
+    <string name="state_error_title">Algo salió mal</string>
+    <string name="state_retry">Reintentar</string>
+    <string name="error_network">No pudimos conectarnos al servidor. Revisá tu conexión.</string>
+    <string name="error_server">El servidor respondió con un error (%1$d).</string>
+    <string name="error_database">No pudimos guardar los datos en el dispositivo.</string>
+    <string name="error_unknown">Ocurrió un error inesperado.</string>
+
+    <!-- Confirmaciones -->
+    <string name="success_product_created">Producto creado correctamente.</string>
+    <string name="success_product_updated">Producto actualizado correctamente.</string>
+    <string name="success_product_deleted">«%1$s» fue eliminado.</string>
+    <string name="success_added_to_cart">«%1$s» se agregó al carrito.</string>
+    <string name="success_catalog_refreshed">Catálogo actualizado.</string>
+    <string name="action_undo">Deshacer</string>
+
+    <!-- Carrito -->
+    <string name="cart_empty_title">Tu carrito está vacío</string>
+    <string name="cart_empty_message">Agregá productos desde el catálogo para verlos acá.</string>
+    <string name="cart_total">Total</string>
+    <string name="cart_checkout">Confirmar compra</string>
+    <string name="cart_clear">Vaciar carrito</string>
+    <string name="cart_increase">Sumar una unidad</string>
+    <string name="cart_decrease">Restar una unidad</string>
+    <string name="cart_remove">Quitar del carrito</string>
+    <string name="cart_clear_dialog_title">Vaciar carrito</string>
+    <string name="cart_clear_dialog_message">¿Querés quitar todos los productos del carrito?</string>
+    <string name="cart_checkout_success">Compra confirmada por %1$s. Se descontó el stock.</string>
+
+    <!-- Notificacion de compra confirmada -->
+    <string name="notification_channel_orders">Compras</string>
+    <string name="notification_channel_orders_description">Avisos sobre el estado de tus compras en MobileStore.</string>
+    <string name="notification_order_title">¡Compra confirmada!</string>
+    <string name="notification_order_text">Tu pedido de %1$d artículo(s) por %2$s quedó registrado.</string>
+
+    <!-- Descripciones de contenido (accesibilidad) -->
+    <string name="cd_product_image">Imagen del producto %1$s</string>
+    <string name="cd_clear_search">Limpiar búsqueda</string>
+</resources>
