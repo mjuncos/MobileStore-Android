@@ -160,7 +160,7 @@ llamada había fallado.
 | 3.4 · MVVM, `ViewModel`, `StateFlow`, corrutinas, rotación | `ui/*/...ViewModel.kt` con `stateIn` + `viewModelScope` |
 | 3.5 · Notificación con `NotificationCompat` | `NotificationHelper.kt` — compra confirmada, disparada desde el checkout |
 | 3.5 · Extras (mínimo 2) | **(1)** compartir con `Intent.ACTION_SEND` (`ShareHelper.kt`); **(2)** selección de fotografías con Photo Picker (`ImageStorage.kt`) |
-| 3.6 · Textos en recursos | `res/values/strings.xml` — 96 strings, ningún literal en la interfaz |
+| 3.6 · Textos en recursos | `res/values/strings.xml` — 97 strings, ningún literal en la interfaz |
 | 3.6 · Estilos, colores y dimensiones | `ui/theme/Theme.kt`, `ui/theme/Dimens.kt`, `res/values/` |
 | 3.6 · Permisos solo cuando son necesarios | Solo `INTERNET` y `POST_NOTIFICATIONS`; este último se pide al confirmar una compra |
 

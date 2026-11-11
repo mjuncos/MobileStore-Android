@@ -21,4 +21,4 @@ Thumbs.db
 !debug.keystore
 
 # El wrapper de Gradle SÍ va al repo
-!gradle/wrapper/gradle-wrapper.jars
+!gradle/wrapper/gradle-wrapper.jar
